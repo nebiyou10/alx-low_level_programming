@@ -1,38 +1,23 @@
-nclude <stdio.h>
-
+#include <stdio.h>
 /**
- *
- *  * main - Entry point
- *
- *   * Return: Always 0 (success)
- *
- *    */
-
-int main(void)
-
-{
+ *main - Entry point
+ *Return: Always 0 (success)
+ */
+}int main(void)
 int i;
+long int l;
+long long int ll;
+float d;
+char c;
+ printf("Size of a char: %lu byte(s)\n", sizeof(c));
 
-		        long int l;
+         printf("Size of an int: %lu byte(s)\n", sizeof(i));
 
-			        long long int ll;
+	         printf("Size of a long int: %lu byte(s)\n", sizeof(l));
 
-				        float d;
+		         printf("Size of a long long int: %lu byte(s)\n", sizeof(ll));
 
-					        char c;
+			         printf("Size of a float: %lu byte(s)\n", sizeof(d);
+						 return (0);
 
-
-
-						        printf("Size of a char: %lu byte(s)\n", sizeof(c));
-
-							        printf("Size of an int: %lu byte(s)\n", sizeof(i));
-
-								        printf("Size of a long int: %lu byte(s)\n", sizeof(l));
-
-									        printf("Size of a long long int: %lu byte(s)\n", sizeof(ll));
-
-										        printf("Size of a float: %lu byte(s)\n", sizeof(d));
-
-											        return (0);
-
-}
+					 }
