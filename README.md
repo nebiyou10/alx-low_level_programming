@@ -1,1 +1,1 @@
-alx assigmnt 
+Using the if else statement
